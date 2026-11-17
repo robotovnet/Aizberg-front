@@ -1,0 +1,36 @@
+export default {
+	en: {
+		text: {
+			title: 'Currencies',
+			header: 'Currencies',
+			add_currency_button: 'Add new currency',
+			table_currencies_header: 'Currency name',
+			table_currencies_code: 'Code',
+			table_currencies_country: 'Country',
+			table_currencies_by_default: 'By default',
+			table_currencies_remove: 'Remove',
+			table_currencies_edit: 'Edit',
+			table_currencies_turn_on: 'Turn on',
+			table_currencies_turn_off: 'Turn off',
+			dialog_delete_title: 'Confirm delete',
+			dialog_delete_question: 'Are you sure you want to delete currency ',
+		},
+	},
+	ru: {
+		text: {
+			title: 'Валюты',
+			header: 'Валюты',
+			add_currency_button: 'Добавить валюту',
+			table_currencies_header: 'Название валюты',
+			table_currencies_code: 'Код',
+			table_currencies_country: 'Страна',
+			table_currencies_by_default: 'По умолчанию',
+			table_currencies_remove: 'Удалить',
+			table_currencies_edit: 'Редактировать',
+			table_currencies_turn_on: 'Включить',
+			table_currencies_turn_off: 'Выключить',
+			dialog_delete_title: 'Подтвердить удаление',
+			dialog_delete_question: 'Вы уверены что хотите удалить валюту ',
+		},
+	},
+};

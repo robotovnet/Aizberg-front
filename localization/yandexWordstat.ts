@@ -1,0 +1,52 @@
+export default {
+	en: {
+		text: {
+			title: 'Yandex Wordstat',
+			header: 'Yandex Wordstat - Search Phrase Statistics Collection',
+			uploadExcel: '📤 Upload Excel with initial data',
+            downloadExcel: '📥 Download Excel with final data',
+            clearData: '🗑️ Clear collected data',
+            balanceLabel: 'Balance of funds on the account (xmlriver.com):',
+            tasksInWorkLabel: 'Phrases in work',
+            rubles: 'rub.',
+            pieces: 'pcs.',
+            errorLoadingTasksCount: 'Error loading tasks count',
+            errorLoadingBalance: 'Error loading balance',
+            successUploadFile: 'File uploaded successfully',
+            errorUploadFile: 'Error uploading file',
+            errorDownloadingFile: 'Error downloading file',
+            successClearData: 'Statistics cleared successfully',
+            errorClearData: 'Error clearing statistics',
+            successDownloadFile: 'File downloaded successfully',
+            statisticsCollected: 'Statistics collected for phrases',
+            clearJobs: '🔄 Clear tasks',
+            successClearJobs: 'Tasks cleared successfully',
+            errorClearJobs: 'Error clearing tasks',
+        }
+	},
+	ru: {
+		text: {
+			title: 'Яндекс Wordstat',
+			header: 'Яндекс Wordstat – Сбор статистики по поисковым фразам',
+			uploadExcel: '📤 Загрузить Excel с исходными фразами',
+            downloadExcel: '📥 Скачать Excel с результатами',
+            clearData: '🗑️ Очистить собранные данные',
+            balanceLabel: 'Баланс счета (xmlriver.com):',
+            tasksInWorkLabel: 'Фраз в обработке',
+            rubles: 'руб.',
+            pieces: 'шт.',
+            errorLoadingTasksCount: 'Ошибка при получении количества заданий',
+            errorLoadingBalance: 'Ошибка при получении баланса',
+            successUploadFile: 'Файл успешно загружен',
+            errorUploadFile: 'Ошибка при загрузке файла',
+            errorDownloadingFile: 'Ошибка при скачивании файла',
+            successClearData: 'Статистика успешно сброшена',
+            errorClearData: 'Ошибка при сбросе статистики',
+            successDownloadFile: 'Файл успешно скачан',
+            statisticsCollected: 'Статистика собрана по фразам',
+            clearJobs: '🔄 Сбросить задачи',
+            successClearJobs: 'Задачи успешно сброшены',
+            errorClearJobs: 'Ошибка при сбросе задач',
+        }
+	}
+}

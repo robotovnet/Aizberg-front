@@ -1,0 +1,38 @@
+export default {
+	en: {
+		text: {
+			title: 'Add filter',
+			header: 'Add filter',
+			header_edit: 'Edit filter',
+			product_type: 'Product type',
+			supported_parameters: 'Supported parameters',
+			add_button: 'Save filter',
+			filter_type: 'Filter type',
+			edit_button: 'Edit filter',
+			multiple_options_at_the_same_time: 'Одновременно несколько вариантов',
+			range: 'Диапазон',
+			only_one_of_the_options: 'Только один из вариантов',
+			input_field_with_options: 'Поле ввода с вариантами',
+			parameter_up: 'Up',
+           		parameter_down: 'Down',
+		},
+	},
+	ru: {
+		text: {
+			title: 'Добавить фильтр',
+			header: 'Добавление фильтра',
+			header_edit: 'Редактирование фильтра',
+			product_type: 'Тип товара',
+			supported_parameters: 'Поддерживаемые параметры',
+			add_button: 'Сохранить фильтр',
+			filter_type: 'Тип фильтра',
+			edit_button: 'Редактировать фильтр',
+			multiple_options_at_the_same_time: 'Одновременно несколько вариантов',
+			range: 'Диапазон',
+			only_one_of_the_options: 'Только один из вариантов',
+			input_field_with_options: 'Поле ввода с вариантами',
+			parameter_up: 'Переместить вверх',
+            		parameter_down: 'Переместить вниз',
+		},
+	},
+};

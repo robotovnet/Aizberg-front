@@ -1,0 +1,25 @@
+# IDE folders
+.DS_Store
+.vscode
+.idea
+.cache
+
+# Framework Folders
+build
+dist
+node_modules
+temp
+tmp
+
+# Logs
+logs
+*.log
+
+# Env
+.env
+*.local
+
+# Project folders
+!assets/img/dist
+server/index.js
+server/ssl/*

@@ -1,0 +1,62 @@
+export default {
+	en: {
+		text: {
+			title: 'Profile',
+			header: 'User Profile',
+			first_name: 'First Name',
+			last_name: 'Last Name',
+			email: 'E-mail',
+			phone: 'Mobile phone number',
+			set_new_password: 'Set new password',
+			currennt_password_placeholder: 'Enter current password',
+			new_password_placeholder: 'Enter new password',
+			confirm_password_placeholder: 'Confrim new password',
+			amend_name: 'Amend name/surname',
+			amend_email: 'Amend email',
+			amend_phone: 'Amend phone number',
+			change_password: 'Change password',
+			pick_avatar: 'Pick user avatar',
+			choose_avatar_button: 'Сhoose avatar',
+			new_email: 'Confirm new email',
+			enter_email_placeholder: 'Enter new email',
+			confirm_code_email_placeholder: 'Enter confirmation code sent by email',
+			confirm_email_button: 'Confirm email',
+			close: 'Close',
+			new_phone: 'Confirm new mobile phone number',
+			enter_phone_placeholder: 'Enter new mobile phone',
+			confirm_code_phone_placeholder: 'Enter confirmation code sent by SMS',
+			confirm_phone_button: 'Confirm mobile phone number',
+			update_im: 'Save IM'
+		}
+	},
+	ru: {
+		text: {
+			title: 'Профиль',
+			header: 'Данные профиля',
+			first_name: 'Имя',
+			last_name: 'Фамилия',
+			email: 'E-mail',
+			phone: 'Номер мобильного телефона',
+			set_new_password: 'Установка нового пароля',
+			currennt_password_placeholder: 'Введите текущий пароль',
+			new_password_placeholder: 'Введите новый пароль',
+			confirm_password_placeholder: 'Павторите новый пароль',
+			amend_name: 'Изменить имя/фамилию',
+			amend_email: 'Изменить E-mail',
+			amend_phone: 'Изменить телефон',
+			change_password: 'Изменить пароль',
+			pick_avatar: 'Изменить аватар пользователя',
+			choose_avatar_button: 'Выбрать аватар',
+			new_email: 'Изменить e-mail',
+			enter_email_placeholder: 'Введите новый e-mail',
+			confirm_code_email_placeholder: 'Введите проверочный код из e-mail',
+			confirm_email_button: 'Изменить e-mail',
+			close: 'Закрыть',
+			new_phone: 'Изменить номер мобильного телефона',
+			enter_phone_placeholder: 'Введите новый номер мобильного телефона',
+			confirm_code_phone_placeholder: 'Введите проверочный код из SMS',
+			confirm_phone_button: 'Подтвердить',
+			update_im: 'Сохранить IM'
+		}
+	}
+}

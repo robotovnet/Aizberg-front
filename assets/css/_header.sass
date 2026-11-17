@@ -1,0 +1,251 @@
+.header
+    display: flex
+    justify-content: space-between
+    padding: 0 10px 0 30px
+    min-height: 30px
+    background: #2F3438
+
+.logotype
+    display: flex
+    align-items: center
+    padding: 7px 0 8px
+
+.input-group
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: center
+    min-width: 350px
+    background: #3D4247
+
+    &__input
+        padding: 0 44px 0 20px
+        width: 100%
+        height: 100%
+        font-size: 12px
+        color: #F0F0F0
+        background: transparent
+        border: 0
+        appearance: none
+        transition: background 0.5s
+
+        &::placeholder
+            color: #797E82
+
+        &:focus
+            outline: none
+            background: #484A4D
+
+    &__btn
+        position: absolute
+        right: 20px
+        padding: 0
+        background-color: transparent
+        border: 0
+
+        &:hover,
+        &:focus
+            svg path
+                fill: #FAFAFA
+
+        &:focus
+            outline: none
+
+.header-nav
+    margin-top: auto
+
+    &__list
+        display: flex
+        align-items: center
+        position: relative
+
+    &__item
+        position: relative
+
+    &__item:not(.header-nav__item--active)
+        .header-nav__link
+            &--icon
+                &:hover
+                    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(00deg) brightness(160%) contrast(91%)
+
+            &:hover
+                svg > *
+                    fill: #FAFAFA
+
+    &__item--active
+        position: relative
+        z-index: 1
+
+        &::before
+            content: ''
+            position: absolute
+            bottom: 0
+            z-index: -1
+            display: inline-block
+            width: 100%
+            height: calc(100% - 3px)
+            background: #FAFAFA
+            border-radius: 2px 2px 0 0
+
+        .header-nav__link
+            &--help
+                &:hover
+                    &::before
+                        background: #428AB4
+
+            &--user
+                &:hover
+                    &::before
+                        background: $green-color
+
+        .header-nav__link + .user-info
+            display: block
+
+    &__link
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 30px
+        height: 30px
+        cursor: pointer
+        text-decoration: none
+
+        &--help
+            position: relative
+            z-index: 1
+            font-size: 9px
+            color: #2F3438
+
+            &::before
+                content: ''
+                position: absolute
+                top: 50%
+                left: 50%
+                z-index: -1
+                transform: translate(-50%, -50%)
+                display: block
+                width: 14px
+                height: 14px
+                background: #428AB4
+                border-radius: 50%
+                transition: background 0.5s
+
+            &:hover
+                &::before
+                    background: #FAFAFA
+
+        &--user
+            position: relative
+            z-index: 1
+            font-size: 9px
+            color: #2f3438
+
+            &::before
+                content: ''
+                position: absolute
+                top: 50%
+                left: 50%
+                z-index: -1
+                transform: translate(-50%, -50%)
+                display: block
+                width: 14px
+                height: 14px
+                background: $green-color
+                border-radius: 50%
+                transition: background 0.5s
+
+            &:hover
+                &::before
+                    background: #FAFAFA
+
+    &__item--language
+        margin-left: 10px
+
+    &__language
+        display: flex
+        align-items: center
+        gap: 4px
+        padding: 0 8px
+
+    &__lang-link
+        font-size: 12px
+        color: #797E82
+        text-decoration: none
+        cursor: pointer
+        transition: color 0.3s
+        padding: 2px 4px
+
+        &:hover
+            color: #FAFAFA
+
+        &--active
+            color: #FAFAFA
+            font-weight: bold
+
+    &__lang-separator
+        font-size: 12px
+        color: #797E82
+
+.user-info__overlay
+    position: fixed
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    justify-content: center
+    align-items: center
+    z-index: 9
+    min-width: 0
+    display: none
+    &--active
+        display: block
+
+
+.user-info
+    position: absolute
+    top: 30px
+    right: 0
+    z-index: 10
+    display: none
+    padding: 20px 20px 24px
+    min-width: 257px
+    background: #FAFAFA
+    box-shadow: 0 2px 2px rgba(#000, 0.25)
+
+    &:hover
+        display: block
+
+    &__top
+        display: flex
+        align-items: flex-end
+
+    &__ava
+        margin-right: 19px
+        max-width: 39px
+        max-height: 39px
+        overflow: hidden
+
+    &__name
+        display: block
+        font-size: 12px
+
+    &__position
+        display: block
+        font-size: 12px
+        font-weight: bold
+
+    &__contacts
+        margin: 15px 0
+
+        span
+            display: block
+            font-size: 12px
+
+        span + span
+            margin-top: 3px
+
+    &__bottom
+        margin-top: 21px
+
+        .btn
+            width: 100%

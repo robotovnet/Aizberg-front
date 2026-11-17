@@ -1,0 +1,41 @@
+export default {
+	en: {
+		text: {
+			title: 'Tickets',
+			header: 'Tickets',
+			name: 'Tickets',
+			generator_tickets: 'Tickets generator',
+			required_tickets: 'Number of tickets',
+			start_generation: 'Start generation',
+			generating: 'Generating...',
+			batches_tickets: 'Batches of tickets',
+			batch_number: 'Batch number',
+			total_tickets: 'Total tickets',
+			download_csv: 'Download in CSV',
+			download: 'Download',
+			active_tickets: 'Active tickets',
+			generation_date: 'Generation date',
+			no_data: 'No data',
+		},
+	},
+	ru: {
+		text: {
+			title: 'Билеты',
+			header: 'Билеты',
+			name: 'Билеты',
+			generator_tickets: 'Генератор билетов',
+			required_tickets: 'Кол-во',
+			start_generation: 'Запустить генерацию',
+			generating: 'Генерация...',
+			batches_tickets: 'Партии билетов',
+			batch_number: 'Номер партии',
+			total_tickets: 'Всего билетов',
+			download_csv: 'Скачать в CSV',
+			download: 'Скачать',
+			active_tickets: 'Активных билетов',
+			generation_date: 'Дата генерации',
+			no_data: 'нет данных',
+		},
+	},
+};
+

@@ -1,0 +1,43 @@
+export default {
+	en: {
+		text: {
+			title: 'Loyalty Program',
+			header: 'Loyalty Program',
+			add_button: 'Add new level',
+			by_alphabet: 'By alphabet',
+			level_name: 'Level name',
+			client_types: 'Client types',
+			next_level: 'Next level',
+			one_order: 'One order',
+			start: 'Start',
+			estimated_number: 'Estimated number',
+			bonus_program_category: 'Categories which not part in bonus program ',
+			add_category: 'Add category',
+			dialog_delete_title: 'Confirm delete',
+			dialog_delete_question: 'Are you sure you want to delete level ',
+			save_changes: 'Save changes',
+			choose_subsection_title: 'Select directory subsection',
+		},
+	},
+
+	ru: {
+		text: {
+			title: 'Программа лояльности',
+			header: 'Программа лояльности',
+			add_button: 'Добавить новый уровень',
+			by_alphabet: 'По алфавиту',
+			level_name: 'Название уровня',
+			client_types: 'Тип клиентов',
+			next_level: 'Следующий уровень',
+			one_order: 'Разовый заказ',
+			start: 'Начальный',
+			estimated_number: 'Расчетное число',
+			bonus_program_category: 'Категории которые не участвуют в бонусной программе',
+			add_category: 'Добавить категорию',
+			dialog_delete_title: 'Подтвердить удаление',
+			dialog_delete_question: 'Вы действительно хотите удалить уровень ',
+			save_changes: 'Сохранить изменения',
+			choose_subsection_title: 'Выбрать подразделы каталога',
+		},
+	},
+};
